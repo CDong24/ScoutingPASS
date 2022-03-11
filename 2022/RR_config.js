@@ -42,7 +42,7 @@ var config_data = `
         "code":"r",
         "type":"robot",
         "choices":{
-          "r1":"Red-1 super super good",
+          "r1":"Red-1",
           "b1":"Blue-1<br>",
           "r2":"Red-2",
           "b2":"Blue-2<br>",
