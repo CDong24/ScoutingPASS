@@ -18,19 +18,6 @@ var config_data = `
         "required":"true",
         "disabled":"true"
       },
-      "Match Level":{
-        "code":"l",
-        "type":"level",
-        "choices":{
-          "qm":"Quals<br>",
-          "ef":"Eighth-Final<br>",
-          "qf":"Quarter-Final<br>",
-          "sf":"Semi-Final<br>",
-          "f":"Finals"
-        },
-        "defaultValue":"qm",
-        "required":"true"
-      },
       "Match #":{
         "code":"m",
         "type":"match",
@@ -199,11 +186,6 @@ var config_data = `
       "Card Foul": {
         "code":"cf",
         "title": "Yellow/Red Card",
-        "type":"bool"
-      },
-      "Make good alliance partner?": {
-        "code":"all",
-        "title": "Make good alliance partner?",
         "type":"bool"
       },
       "Comments": {
