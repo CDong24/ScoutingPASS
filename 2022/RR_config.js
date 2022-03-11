@@ -188,7 +188,6 @@ var config_data = `
         "title": "Yellow/Red Card",
         "type":"bool"
       },
-        },
       "Make good alliance partner?": {
         "code":"all",
         "title": "Make good alliance partner?",
