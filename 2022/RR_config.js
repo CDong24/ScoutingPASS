@@ -188,13 +188,30 @@ var config_data = `
         "title": "Yellow/Red Card",
         "type":"bool"
       },
+        },
+      "Make good alliance partner?": {
+        "code":"all",
+        "title": "Make good alliance partner?",
+        "type":"bool"
+      },
       "Comments": {
         "code":"co",
         "title": "Comments",
         "type":"text",
         "size":15,
         "maxSize":50
-      };
+      },
+      "Confidence Rating": {
+        "code":"cnf",
+        "title": "Confidence Rating",
+        "type":"radio",
+        "choices":{
+          "v":"Very Confident<br>",
+          "a":"Average<br>",
+          "n":"Not Confident"
+      },
+       "defaultValue":"a"
+    }
     }
   }
 }`;
