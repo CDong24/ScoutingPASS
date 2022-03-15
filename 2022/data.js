@@ -1,6 +1,7 @@
+var config_data = `
 {
   "title":"Scouting PASS 2022",
-  "page_title":"Rapid React 2022",
+  "page_title":"Rapid React",
   "elements":{
     "prematch": {
       "Scout Name": {
@@ -16,6 +17,19 @@
         "defaultValue":"2022flwp",
         "required":"true",
         "disabled":"true"
+      },
+      "Match Level":{
+        "code":"l",
+        "type":"level",
+        "choices":{
+          "qm":"Quals<br>",
+          "ef":"Eighth-Final<br>",
+          "qf":"Quarter-Final<br>",
+          "sf":"Semi-Final<br>",
+          "f":"Final"
+        },
+        "defaultValue":"qm",
+        "required":"true"
       },
       "Match #":{
         "code":"m",
@@ -86,6 +100,11 @@
       "Was Defended": {
         "code":"wd",
         "title": "Was Defended",
+        "type":"bool"
+      },
+      "Wallbot?": {
+        "code":"wbt",
+        "title": "Wallbot?",
         "type":"bool"
       },
       "Cargo Intake From": {
@@ -212,4 +231,4 @@
     }
     }
   }
-}
+}`;
