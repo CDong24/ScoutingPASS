@@ -4,7 +4,7 @@ var config_data = `
   "page_title":"Rapid React 2022",
   "elements":{
     "prematch": {
-      "Scouter Name2": {
+      "Scout Name": {
         "code":"s",
         "type":"scouter",
         "size":5,
