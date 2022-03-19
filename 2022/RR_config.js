@@ -92,14 +92,19 @@ var config_data = `
         "title": "Uppoer Cargo Scored",
         "type":"counter"
       },
+       "Upper Cargo Missed": {
+        "code":"ucm",
+        "title": "Upper Cargo Missed",
+        "type":"counter"
+      },
       "Lower Cargo Scored": {
         "code":"tl",
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
-       "Cargo Missed": {
-        "code":"cam",
-        "title": "Cargo Missed",
+       "Lower Cargo Missed": {
+        "code":"lcm",
+        "title": "Lower Cargo Missed",
         "type":"counter"
       },
       "Was Defended": {
