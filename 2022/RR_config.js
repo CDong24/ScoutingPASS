@@ -97,6 +97,11 @@ var config_data = `
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
+       "Cargo Missed": {
+        "code":"cam",
+        "title": "Cargo Missed",
+        "type":"counter"
+      },
       "Was Defended": {
         "code":"wd",
         "title": "Was Defended",
